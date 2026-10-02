@@ -63,6 +63,74 @@
       "cmdId": "c17909588500824510-Secret-Side_Estella",
       "type": "setLevel",
       "value": "1"
+    },
+    {
+      "cmdId": "c17909590281227676",
+      "type": "editItem",
+      "matchName": "Sparrow",
+      "item": {
+        "mailId": "m17909590281227668",
+        "name": "Sparrow",
+        "type": "Weapon",
+        "rarity": "Rare",
+        "value": "",
+        "weight": "4",
+        "qty": 1,
+        "stackable": false,
+        "desc": "Three pieces that used to be three separate things: the pistol from the week she got jumped, a dagger she's carried just as long, and a length of scavenged chain wound between them. She built it so she'd never have to choose between having a gun and a blade, and so she'd have something in reach the day she needed to hit someone without touching them herself.\n\nAny of its actions can be used whenever. Assume she assembled or broke it down as needed, no cost either way. The chain lets her run stored Volts through the harpoon on a hit: land a Harpoon Strike while charged and she discharges through the weapon instead of needing bare skin on a conductive surface. It's the only way she can deliver Discharge without touching someone directly.",
+        "notes": "",
+        "equippable": true,
+        "usable": false,
+        "consumable": false,
+        "uses": "",
+        "props": "Versatile",
+        "weaponWt": "",
+        "twoHanded": false,
+        "ac": "",
+        "armorType": "Light",
+        "strReq": "",
+        "stealthDisadv": false,
+        "ammoDamage": "",
+        "ammoDmgType": "",
+        "effect": "",
+        "fx": {
+          "str": "",
+          "mnd": "",
+          "sol": "",
+          "def": ""
+        },
+        "conditions": [],
+        "customFields": [],
+        "actions": [
+          {
+            "name": "Shoot",
+            "damage": "1d8",
+            "dmgType": "Piercing",
+            "range": "60/180 ft",
+            "damage2": "",
+            "dmgType2": "",
+            "notes": ""
+          },
+          {
+            "name": "Dagger Strike",
+            "damage": "1d4+STR",
+            "dmgType": "Piercing",
+            "range": "5 ft",
+            "damage2": "",
+            "dmgType2": "",
+            "notes": ""
+          },
+          {
+            "name": "Harpoon Strike",
+            "damage": "1d6+STR",
+            "dmgType": "Piercing",
+            "range": "10 ft",
+            "damage2": "",
+            "dmgType2": "Electric",
+            "notes": "Deals extra damage only if ability is used after a target is hit."
+          }
+        ]
+      }
     }
   ]
 }
